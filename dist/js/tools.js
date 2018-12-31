@@ -1,0 +1,1 @@
+function $(e){return document.getElementById(e)}function $get(e,t){if("string"==typeof e&&$(e))return $(e).getElementsByTagName(t);if("object"==typeof e)return e.getElementsByTagName(t);throw"你写的第一个参数不是一个ID"}function $create(e,t){var n=document.createElement(e);for(var r in t)n[r]=t[r];return n}
