@@ -14,7 +14,7 @@
 			float: left;
 			color: #666;
 			padding-right: 20px;
-			
+
 		}
 		.header_top_log_fl{
 			float: left;
@@ -47,7 +47,7 @@
 		}
 }
 }
- 
+
 //footer_wrap 底部cass
 .footer_tip{
 	height:117px;
@@ -67,13 +67,13 @@
 			.txt{
 				margin-left: 55px;
 				margin-top: 7px;
-				
+
 			}
 		}
-		
+
  	}
-	
-	
+
+
 }
 .footer_tip .li .txt .t{
 	font-size: 18px;
@@ -81,10 +81,10 @@
 }
 .footer_tip .li .txt .c{
 	font-size: 12px;
-	
+
 }
 // $arr : 1 2 3 4;
-// 
+//
 // @each $i in $arr{
 // 	back-#{$i}{
 // 		background: url("../../dist/img/foot/#{$i}.min.jpg");
@@ -99,10 +99,10 @@
 		}
 .footer_tip .li.third{
 		background: url("../../dist/img/foot3.min.jpg") no-repeat 0px center ;
-		}						
+		}
 .footer_tip .li.four{
 		background: url("../../dist/img/foot4.min.jpg") no-repeat 0px center ;
-		}		
+		}
 // footer_box start
 .footer_box {
 	padding: 25px 0;
@@ -110,7 +110,7 @@
 		width: 1100px;
 		margin: 0 auto;
 		}
-   
+
 // 	.clear{
 // 		float: none;
 // 		clear:both;
@@ -130,7 +130,7 @@
 			line-height: 30px;margin: 5px 0px;
 			border-radius: 5px;background: #cc0004;
 	}
-// 
+//
 // .footer_box .footer_wr{
 // 	width: 250px;
 // 	background: rosybrown;
