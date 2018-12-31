@@ -9,9 +9,70 @@
   .location{
     font-size: 12px;
     color: #848484;
-    padding: 20px 0;
-    border-bottom: 1px solid #848484;
+    padding: 15px 0;
+    border-bottom: 1px solid lightgrey;
+  }
 
+  .t-box{
+    border: 1px solid lightgrey;
+    margin-top: 15px;
+    .classify-box{
+      border-top: 1px solid lightgrey;
+    }
+    >div{
+      >div{
+        display: inline-block;
+      }
+    //display: flex;
+      .titl{
+        width: 120px;
+        background: lightgrey;
+        font-weight: bold;
+        color: black;
+        padding: 10px;
+        display: inline-block;
+      }
+      .brands{
+        width: 960px;
+          .brands-list{
+            padding: 15px 50px 15px 10px;
+            max-height: 120px;
+            overflow: hidden;
+            position: relative;
+            p{
+              position: absolute;
+              right: 15px;
+              top: 15px;
+            }
+            ul{
+              //display: flex;
+              //flex-wrap: wrap;
+              li{
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+                width: 140px;
+                height:60px;
+                line-height: 60px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                text-align: center;
+                border: 1px solid lightgrey;
+                box-sizing: border-box;
+              }
+            }
+          }
+      }
+      .classifys{
+
+        ul{
+          display: flex;
+          li{
+            margin: 10px;
+          }
+        }
+      }
+    }
   }
 }
 

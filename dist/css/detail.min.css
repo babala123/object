@@ -674,46 +674,5 @@ img {
   .list-box .location {
     font-size: 12px;
     color: #848484;
-    padding: 15px 0;
+    padding: 10px 0;
     border-bottom: 1px solid lightgrey; }
-  .list-box .t-box {
-    border: 1px solid lightgrey;
-    margin-top: 15px; }
-    .list-box .t-box .classify-box {
-      border-top: 1px solid lightgrey; }
-    .list-box .t-box > div > div {
-      display: inline-block; }
-    .list-box .t-box > div .titl {
-      width: 120px;
-      background: lightgrey;
-      font-weight: bold;
-      color: black;
-      padding: 10px;
-      display: inline-block; }
-    .list-box .t-box > div .brands {
-      width: 960px; }
-      .list-box .t-box > div .brands .brands-list {
-        padding: 15px 50px 15px 10px;
-        max-height: 120px;
-        overflow: hidden;
-        position: relative; }
-        .list-box .t-box > div .brands .brands-list p {
-          position: absolute;
-          right: 15px;
-          top: 15px; }
-        .list-box .t-box > div .brands .brands-list ul li {
-          margin: 0;
-          padding: 0;
-          display: inline-block;
-          width: 140px;
-          height: 60px;
-          line-height: 60px;
-          overflow: hidden;
-          text-overflow: ellipsis;
-          text-align: center;
-          border: 1px solid lightgrey;
-          box-sizing: border-box; }
-    .list-box .t-box > div .classifys ul {
-      display: flex; }
-      .list-box .t-box > div .classifys ul li {
-        margin: 10px; }
