@@ -1,265 +1,638 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>列表页</title>
+	<head>
+		<meta charset="utf-8">
+		<title>列表页</title>
 
-    <link rel="stylesheet" type="text/css" href="css/list.min.css"/>
-</head>
-<body>
-<div class="header_wrap">
-    <!--header_top start-->
-    <div class="header_top">
-        <div class="w_1100_clear">
-            <div class="header_top_wel_fl">美国购物网欢迎你</div>
-            <div class="header_top_log_fl">
-                <a class="header_top_a" href="#">登录</a>
-                <span class="header_top_xian">|</span>
-                <a class="header_top_a" href="#">注册</a>
-            </div>
-            <div class="header_top_right_fr">
-                <a class="header_top_a" href="javascript:;">返回旧版</a>
-                <span class="header_top_xian">|</span>
-                <a class="header_top_a" href="javascript:;">站内消息 </a>
-                <span class="header_top_xian">|</span>
-                <a class="header_top_a" href="javascript:;">个人中心</a>
-                <span class="header_top_xian">|</span>
-                <a class="header_top_a" href="javascript:;">我的订单</a>
-                <span class="header_top_xian">|</span>
-                <a class="header_top_a" href="javascript:;">新手指南</a>
-                <span class="header_top_xian">|</span>
-            </div>
-        </div>
-    </div>
-    <!--header_top end-->
+		<link rel="stylesheet" type="text/css" href="css/list.min.css" />
+	</head>
+	<body>
+		<div class="header_wrap">
+		<!--header_top start-->
+			<div class="header_top">
+		<div class="w_1100_clear">
+		<div class="header_top_wel_fl">美国购物网欢迎你</div>
+		<div class="header_top_log_fl">
+			<a class="header_top_a" href="#">登录</a>
+			<span class="header_top_xian">|</span>
+			<a class="header_top_a" href="#">注册</a>
+		</div>
+		<div class="header_top_right_fr">
+			<a class="header_top_a" href="javascript:;">返回旧版</a>
+			<span class="header_top_xian">|</span>
+			<a class="header_top_a" href="javascript:;">站内消息 </a>
+			<span class="header_top_xian">|</span>
+			<a class="header_top_a" href="javascript:;">个人中心</a>
+			<span class="header_top_xian">|</span>
+			<a class="header_top_a" href="javascript:;">我的订单</a>
+			<span class="header_top_xian">|</span>
+			<a class="header_top_a" href="javascript:;">新手指南</a>
+			<span class="header_top_xian">|</span>
+		</div>
+		</div>
+		</div>
+		<!--header_top end-->
 
-    <!--header start-->
-    <div class="header w_1100 clear">
-        <a class="logo fl" href="javascript:;"><img src="img/logo.min.jpg"></a>
-        <!--header_cart start-->
-        <div class="header_cart fr">
-            <a href="javascript:;">购物车(<span id="head_cart">0</span>)</a>
-        </div>
-        <!--header_cart end-->
-        <!--header_search start-->
-        <div class="header_search fr">
-            <form action="javascript:;" method="get">
-                <div class="header_search_text clear">
-                    <input type="text" name="key" class="text" placeholder="请输入商品名称">
-                    <input type="submit" class="but" value="">
-                </div>
-                <div class="header_search_tip">热门搜索：
-                    <a href="javascript:;">MK</a>
-                    <a href="javascript:;">CK</a>
-                    <a href="javascript:;">百傲钙</a>
-                    <a href="javascript:;">Coach</a>
-                    <a href="javascript:;"> GNC </a>
-                </div>
-            </form>
-        </div>
-        <!--header_search end-->
-    </div>
-    <!-- header_nav start -->
-    <div class="header_nav">
-        <div class="w_1100 clear">
-            <div class="hc_lnav jslist f1">
-                <!--main_menu start-->
-                <div class="allbtn">
-                    <h2><strong>所有分类</strong>
-                        <ul>
-                            <!-- 服装鞋帽 -->
-                            <li>
-                                <a class="lia" href="javascript:;">服装鞋帽</a>
-                                <div class="pop">
-                                    <dl>
-                                        <dt>男装</dt>
-                                        <dd>
-                                            <!-- 跳转页面 -->
-                                            <a href="javascript:;">卫衣</a>
-                                            <a href="javascript:;">衬衣</a>
-                                            <a href="javascript:;">卫衣</a>
-                                            <a href="javascript:;">卫衣</a>
-                                            <a href="javascript:;">卫衣</a>
-                                            <a href="javascript:;">卫衣</a>
-                                            <a href="javascript:;">卫衣</a>
-                                            <a href="javascript:;">卫衣</a>
-                                        </dd>
-                                    </dl>
+		<!--header start-->
+			<div class="header w_1100 clear">
+		<a class="logo fl" href="index.html"><img src="img/logo.min.jpg"></a>
+		<!--header_cart start-->
+		<div class="header_cart fr">
+		<a href="javascript:;">购物车(<span id="head_cart">0</span>)</a>
+		</div>
+		<!--header_cart end-->
+		<!--header_search start-->
+		<div class="header_search fr">
+		<form action="javascript:;" method="get">
+			<div class="header_search_text clear">
+				<input type="text" name="key" class="text" placeholder="请输入商品名称">
+				<input type="submit" class="but" value="">
+			</div>
+			<div class="header_search_tip">热门搜索：
+				<a href="javascript:;">MK</a>
+				<a href="javascript:;">CK</a>
+				<a href="javascript:;">百傲钙</a>
+				<a href="javascript:;">Coach</a>
+				<a href="javascript:;"> GNC </a>
+			</div>
+		</form>
+		</div>
+		<!--header_search end-->
+		</div>
+		<!-- header_nav start -->
+			<div class="header_nav">
+		<div class="w_1100 clear">
+		<div class="hc_lnav jslist f1">
+	<!--main_menu start-->
+	<div class="allbtn">
+		<h2><strong>所有分类</strong>
+			<ul>
+				<!-- 服装鞋帽 -->
+				<li>
+					<a class="lia" href="javascript:;">服装鞋帽</a>
+					<div class="pop">
+						<dl>
+							<dt>男装</dt>
+							<dd>
+								<!-- 跳转页面 -->
+								<a href="javascript:;">卫衣</a>
+								<a href="javascript:;">衬衣</a>
+								<a href="javascript:;">卫衣</a>
+								<a href="javascript:;">卫衣</a>
+								<a href="javascript:;">卫衣</a>
+								<a href="javascript:;">卫衣</a>
+								<a href="javascript:;">卫衣</a>
+								<a href="javascript:;">卫衣</a>
+							</dd>
+						</dl>
 
-                                </div>
-                            </li>
-                            <!-- 箱包手袋 -->
-                            <li><a href="#javascript:;">箱包手袋</a></li>
-                            <!-- 美妆个护 -->
-                            <li><a href="javascript:;">美妆个护</a></li>
-                            <!-- 珠宝首饰 -->
-                            <li><a href="javascript:;">珠宝首饰</a></li>
-                            <!-- 营养保健 -->
-                            <li><a href="javascript:;">营养保健</a></li>
-                            <!-- 母婴用具 -->
-                            <li><a href="javascript:;">母婴用具</a></li>
-                        </ul>
-                    </h2>
-                </div>
-            </div>
-            <ul class="nav f1">
-                <li><a href="javascript:;">首页</a></li>
-                <li><a href="javascript:;">团购秒杀</a></li>
-                <li><a href="javascript:;">促销活动</a></li>
-                <li><a href="javascript:;">新品推荐</a></li>
-                <li><a href="javascript:;javascript:;">新品指南</a></li>
-            </ul>
-            <div class="header_nav_moblie fr">
-                美国购物网手机版下载
-            </div>
-        </div>
-    </div>
-    <!-- header_nav end -->
-    <!-- 放大镜 开始-->
-    <div class="list-box">
-        <p class="location"> 您的位置 > 首页> Michael Kors2018春夏新品MK女包单肩斜挎手提拼接托特包手袋</p>
-        <div class="t-box">
-            <div class="brand-box">
-                <div class="titl">品牌</div>
-                <div class="brands">
-                    <div class="brands-list">
-                        <ul>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                            <li>asdf</li>
-                        </ul>
-                        <p class="more">更多</p>
-                    </div>
-                </div>
-            </div>
-            <div class="classify-box">
-                <div class="titl">分类</div>
-                <div class="classifys">
-                    <ul>
-                        <li>全部</li>
-                        <li>裤子</li>
-                        <li>衣服</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
+					</div>
+				</li>
+				<!-- 箱包手袋 -->
+				<li><a href="#javascript:;">箱包手袋</a></li>
+				<!-- 美妆个护 -->
+				<li><a href="javascript:;">美妆个护</a></li>
+				<!-- 珠宝首饰 -->
+				<li><a href="javascript:;">珠宝首饰</a></li>
+				<!-- 营养保健 -->
+				<li><a href="javascript:;">营养保健</a></li>
+				<!-- 母婴用具 -->
+				<li><a href="javascript:;">母婴用具</a></li>
+			</ul>
+		</h2>
+	</div>
+</div>
+					<ul class="nav f1">
+						<li><a href="javascript:;">首页</a></li>
+						<li><a href="javascript:;">团购秒杀</a></li>
+						<li><a href="javascript:;">促销活动</a></li>
+						<li><a href="javascript:;">新品推荐</a></li>
+						<li><a href="javascript:;javascript:;">新品指南</a></li>
+					</ul>
+					<div class="header_nav_moblie fr">
+						美国购物网手机版下载
+					</div>
+				</div>
+			</div>
+			<!-- header_nav end -->
+			<div class="main_position w_1100">
+				您现在的位置：<a href="index.html">首页</a> > <a href="goodslist.php">全部产品</a>
+				> <a href="javascript:;">服装鞋帽</a>
+				> <a href="javascript:;">男装</a>
+				> <a href="list.html">卫衣</a>
+			</div>
+			<!--main_position end-->
+			<!--list_choice start-->
+	<div class="list_choice w_1100">
+	<div class="list_choice_li clear">
+		<div class="left fl">品牌</div>
+		<div class="right">
+			<ul class="selector_ul">
+				<li><a href="?pid=9&pp=0">全部</a></li>
+				<li><a href="?pid=9&pp=5"><img src="">7 for all mankind</a></li>
+				<li><a href="?pid=9&pp=6"><img src="">Abercrombie&Fitch</a></li>
+				<li><a href="?pid=9&pp=7"><img src="">Acne Jeans</a></li>
+				<li><a href="?pid=9&pp=50"><img src="">Burts Bees</a></li>
+				<li><a href="?pid=9&pp=51"><img src="">Cabelas</a></li>
+				<li><a href="?pid=9&pp=52"><img src="">Calvin Klein</a></li>
+				<li><a href="?pid=9&pp=325"><img src="">A2</a></li>
+				<li><a href="?pid=9&pp=326"><img src="">spyder</a></li>
+				<li><a href="?pid=9&pp=50"><img src="">Burts Bees</a></li>
+				<li><a href="?pid=9&pp=51"><img src="">Cabelas</a></li>
+				<li><a href="?pid=9&pp=52"><img src="">Calvin Klein</a></li>
+				<li><a href="?pid=9&pp=325"><img src="">A2</a></li>
+				<li><a href="?pid=9&pp=326"><img src="">spyder</a></li>
+				<li><a href="?pid=9&pp=50"><img src="">Burts Bees</a></li>
+				<li><a href="?pid=9&pp=51"><img src="">Cabelas</a></li>
+				<li><a href="?pid=9&pp=52"><img src="">Calvin Klein</a></li>
+				<li><a href="?pid=9&pp=325"><img src="">A2</a></li>
+				<li><a href="?pid=9&pp=326"><img src="">spyder</a></li>
+				<li><a href="?pid=9&pp=327"><img src="">resmed</a></li>
+				<li><a href="?pid=9&pp=328"><img src="">Swell</a></li>
+			</ul>
+			<div class="sl-ext">
+				<a class="sl-e-more J_extMore closed" href="javascript:;">
+					<span class="g"> 更多</span>
+					<span class="s"> 收起</span>
+					<i></i>
+				</a>
+			</div>
+		</div>
+		</div>
+	
+	<!--list_choice end-->
+	<div class="list_choice_li clear">
+		<div class="left fl">相关分类</div>
+		<div class="right">
+			<a href="?pid=2&pp=0">全部</a>
+			<a class="cur" href="?pid=9&pp=0">卫衣</a>
+			<a href="?pid=11&pp=0">T恤/polo</a>
+			<a href="?pid=12&pp=0">毛衣针织</a>
+			<a href="?pid=13&pp=0">短外套/夹克</a>
+			<a href="?pid=14&pp=0">棉服/羽绒服</a>
+			<a href="?pid=15&pp=0">休闲长裤</a>
+			<a href="?pid=16&pp=0">短裤</a>
+			<a href="?pid=17&pp=0">风衣</a>
+			<a href="?pid=18&pp=0">西装</a>
+			<a href="?pid=19&pp=0">牛仔裤</a>
+		</div>
+	</div>
+	<!--list_choice end-->
+	</div>		
+	<!--list_content start-->
+	<div class="list_content w_1100">
+	<!--list_tab start-->
+	<div class="list_tab clear">
+		<div class="a cur"><a href="javascript:;">默认</a></div>
+		<div class="a "><a href="javascript:;">新品</a></div>
+		<div class="a "><a href="javascript:;">价格 ↑</a></div>
+		<div class="a "><a href="javascript:;">销量</a></div>
+		<div class="price_c fl">
+			<form action="?" method="get">
+				<input type="hidden" name="pid" value="9">
+				<input type="hidden" name="pp" value="0">
+				<input type="hidden" name="px" value="">
+				<input type="hidden" name="jk" value="">
+				<input type="hidden" name="js" value="">
+				<input type="hidden" name="m" value="">
+				<input type="hidden" name="d" value="">
+				<input type="hidden" name="x" value="">
+				<input type="hidden" name="sale" value="">
+				<input type="text" class="text" name="jk" value="" placeholder="">
+				<span>-</span>
+				<input type="text" class="text" name="js" value="" placeholder="">
+				<input name="" type="submit" class="but" value="确定">
+			</form>
+		</div>
+		<div class="check_c fl">
+			<span class="fl">
+				<form action="?" method="get" id="fx">
+					<input type="hidden" name="pid" value="9">
+					<input type="hidden" name="pp" value="0">
+					<input type="hidden" name="px" value="">
+					<input type="hidden" name="jk" value="">
+					<input type="hidden" name="js" value="">
+					<input type="hidden" name="m" value="">
+					<input type="hidden" name="d" value="">
+					<input type="hidden" name="sale" value="">
+					<input type="checkbox" id="checkbox_a1" name="x" value="1" class="chk_1" /><label for="checkbox_a1"></label>
+					自营
+				</form>
+			</span>
+			<span class="fl">
+			 <form action="?" method="get" id="fm">
+					<input type="hidden" name="pid" value="9">
+					<input type="hidden" name="pp" value="0">
+					<input type="hidden" name="px" value="">
+					<input type="hidden" name="jk" value="">
+					<input type="hidden" name="js" value="">
+					<input type="hidden" name="d" value="">
+					<input type="hidden" name="x" value="">
+					<input type="hidden" name="sale" value="">
+					<input type="checkbox" id="checkbox_a2" name="m" value="1" class="chk_1" />
+					<label for="checkbox_a2"></label>
+					代购
+				</form>
+			</span>
+			<span class="fl">
+				<form action="?" method="get" id="fd">
+					<input type="hidden" name="pid" value="9">
+					<input type="hidden" name="pp" value="0">
+					<input type="hidden" name="px" value="">
+					<input type="hidden" name="jk" value="">
+					<input type="hidden" name="js" value="">
+					<input type="hidden" name="m" value="">
+					<input type="hidden" name="x" value="">
+					<input type="hidden" name="sale" value="">
+					<input type="checkbox" id="checkbox_a3" name="d" value="1" class="chk_1" />
+					<label for="checkbox_a3"></label>
+					商家
+				</form>
+			</span>
+		</div>
+	</div>
+	<!--list_tab end-->
+	<!--list_content_ul start-->
+    <ul class="list_content_ul clear">
+	  <li>
+            <a href="detail.html" target="_blank">
+                <div class="img"><img src="img/g2.min.jpg"></div>
+                <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+                <div class="price">
+                    <span class="red">￥298.00 </span>
+                    <span class="gray">￥550.00</span>     
+				</div>
+                <div class="li_tip">
+					<span class="p3">自营</span>                                    
+				</div>
+          </a>
+      </li>
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g3.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g5.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g6.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g7.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g8.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g9.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  
+	   <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g9.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  <li>
+	        <a href="javascript:;" target="_blank">
+	            <div class="img"><img src="img/g1.min.jpg"></div>
+	            <div class="t">elephant&garden2018秋冬新品男士套头连帽卫衣休闲时尚潮</div>
+	            <div class="price">
+	                <span class="red">￥298.00 </span>
+	                <span class="gray">￥550.00</span>     
+	  				</div>
+	            <div class="li_tip">
+	  					<span class="p3">自营</span>                                    
+	  				</div>
+	      </a>
+	  </li>
+	  
+	</ul>			
+	</div>
+	<!--list_content end-->	
+	<!--list_other start-->
+	<div class="list_other w_1100">
+		<div class="tui_jian">
+			<div class="hd clear">
+				<div class="list_other_tit f1">相关推荐</div>
+					<a class="next"></a>
+					<a class="prev"></a>
+					<span class="pageState">
+						<span>5</span>/6
+					</span>
+			</div>
+			
+			
+			<div class="bd">
+				<div class="temwrap" id="box">
+					<ul class="picList" id="ul">
+						<li>
+							<a href="javascript:;" target="_blank">
+								<div class="pic"><img src="img/b1.min.jpg" /></div>
+								<div class="txt">
+									<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+									<div class="price tc">
+										<span class="red">￥189.00 </span> 
+										<span class="gray">￥490.00 </span>                       
+									</div>
+								</div>
+							</a>
+					   </li>
+					   
+					   <li>
+							<a href="javascript:;" target="_blank">
+								<div class="pic"><img src="img/b2.min.jpg" /></div>
+								<div class="txt">
+									<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+									<div class="price tc">
+										<span class="red">￥189.00 </span> 
+										<span class="gray">￥490.00 </span>                       
+									</div>
+								</div>
+							</a>
+					   </li>
+					   
+					   <li>
+							<a href="javascript:;" target="_blank">
+								<div class="pic"><img src="img/b5.min.jpg" /></div>
+								<div class="txt">
+									<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+									<div class="price tc">
+										<span class="red">￥189.00 </span> 
+										<span class="gray">￥490.00 </span>                       
+									</div>
+								</div>
+							</a>
+					   </li>
+					   
+					   <li>
+							<a href="javascript:;" target="_blank">
+								<div class="pic"><img src="img/b4.min.jpg" /></div>
+								<div class="txt">
+									<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+									<div class="price tc">
+										<span class="red">￥189.00 </span> 
+										<span class="gray">￥490.00 </span>                       
+									</div>
+								</div>
+							</a>
+					   </li>
+					  
+					   <li>
+							<a href="javascript:;" target="_blank">
+								<div class="pic"><img src="img/b4.min.jpg" /></div>
+								<div class="txt">
+									<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+									<div class="price tc">
+										<span class="red">￥189.00 </span> 
+										<span class="gray">￥490.00 </span>                       
+									</div>
+								</div>
+							</a>
+					   </li>
+					   
+					   <li>
+								<a href="javascript:;" target="_blank">
+									<div class="pic"><img src="img/b6.min.jpg" /></div>
+									<div class="txt">
+										<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+										<div class="price tc">
+											<span class="red">￥189.00 </span> 
+											<span class="gray">￥490.00 </span>                       
+										</div>
+									</div>
+								</a>
+					   </li>
+					   
+						<li>
+							<a href="javascript:;" target="_blank">
+								<div class="pic"><img src="img/b1.min.jpg" /></div>
+								<div class="txt">
+									<div class="t">美国elephant garden男士商务休闲亮色针扣皮带简约百搭裤带腰带</div>
+									<div class="price tc">
+										<span class="red">￥189.00 </span> 
+										<span class="gray">￥490.00 </span>                       
+									</div>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</div>	
+		<!--list_other end-->
 
+		<div class="footer_wrap">
+			<!-- footer_tip_start -->
+			<div class="footer_tip">
+				<div class="w_1100 clear">
+					<div class="li first">
+						<div class="txt">
+							<p class="t">美国直邮</p>
+							<p class="c">国际快递，美国本土发货</p>
+						</div>
+					</div>
+					<div class="li second">
+						<div class="txt">
+							<p class="t">100%正品</p>
+							<p class="c">美国本土采购，正品保证</p>
+						</div>
+					</div>
+					<div class="li third">
+						<div class="txt">
+							<p class="t">免消费税</p>
+							<p class="c">合法规避在美国消费税</p>
+						</div>
+					</div>
+					<div class="li four">
+						<div class="txt">
+							<p class="t">无忧退货</p>
+							<p class="c">VIP跨境无忧退换货</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--footer_tip end-->
+			<!--footer_box start-->
+			<div class="footer_box">
+				<div class="w_1100 clear">
+					<div class="li">
+						<div class="footer_box_t">帮助中心</div>
+						<div class="c">
+							<a href="javascript:;">新手指南</a>
+							<a href="javascript:;">优惠券使用</a>
+							<a href="javascript:;">售后问题</a>
+						</div>
+					</div>
+					<div class="li">
+						<div class="footer_box_t">支付方式</div>
+						<div class="c">
+							<a href="javascript:;">支付宝支付</a>
+							<a href="javascript:;">微信支付</a>
+						</div>
+					</div>
+					<div class="li">
+						<div class="footer_box_t">会员机制</div>
+						<div class="c">
+							<a href="javascript:;">会员级别</a>
+							<a href="javascript:;">会员奖励</a>
+							<a href="javascript:;">积分制度</a>
+						</div>
+					</div>
+					<div class="li">
+						<div class="footer_box_t">关于我们</div>
+						<div class="c">
+							<a href="/help.php?id=9">网站简介</a>
+							<a href="/help.php?id=10">联系我们</a>
+						</div>
+					</div>
+					<div class="fl footer_contact">
+						<div class="footer_box_t">会员注册/登录</div>
+						<p class="f12 color_848484">还不是我们的会员？赶快注册吧！</p>
+						<a class="reg_but footer_box_t1">立即注册</a>
+						<p class="f14 color_848484">服务热线</p>
+						<p class="tel f30 color_black">400-667-7878</p>
+						<p class="f12 color_848484">service@usashopcn.com</p>
+					</div>
+					<div class="footer_wx tc fr">
+						<div class="img" style="float: left;margin-left: 10px;">
+							<img src="img/wx.min.jpg">
+							<p>微信公众号</p>
+						</div>
+						<div class="img">
+							<img src="img/wx(2).min.jpg">
+							<p>扫描下载手机版</p>
+						</div>
+					</div>
+				</div>
+			</div>
 
-    <div class="footer_wrap">
-        <!-- footer_tip_start -->
-        <div class="footer_tip">
-            <div class="w_1100 clear">
-                <div class="li first">
-                    <div class="txt">
-                        <p class="t">美国直邮</p>
-                        <p class="c">国际快递，美国本土发货</p>
-                    </div>
-                </div>
-                <div class="li second">
-                    <div class="txt">
-                        <p class="t">100%正品</p>
-                        <p class="c">美国本土采购，正品保证</p>
-                    </div>
-                </div>
-                <div class="li third">
-                    <div class="txt">
-                        <p class="t">免消费税</p>
-                        <p class="c">合法规避在美国消费税</p>
-                    </div>
-                </div>
-                <div class="li four">
-                    <div class="txt">
-                        <p class="t">无忧退货</p>
-                        <p class="c">VIP跨境无忧退换货</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--footer_tip end-->
-        <!--footer_box start-->
-        <div class="footer_box">
-            <div class="w_1100 clear">
-                <div class="li">
-                    <div class="footer_box_t">帮助中心</div>
-                    <div class="c">
-                        <a href="javascript:;">新手指南</a>
-                        <a href="javascript:;">优惠券使用</a>
-                        <a href="javascript:;">售后问题</a>
-                    </div>
-                </div>
-                <div class="li">
-                    <div class="footer_box_t">支付方式</div>
-                    <div class="c">
-                        <a href="javascript:;">支付宝支付</a>
-                        <a href="javascript:;">微信支付</a>
-                    </div>
-                </div>
-                <div class="li">
-                    <div class="footer_box_t">会员机制</div>
-                    <div class="c">
-                        <a href="javascript:;">会员级别</a>
-                        <a href="javascript:;">会员奖励</a>
-                        <a href="javascript:;">积分制度</a>
-                    </div>
-                </div>
-                <div class="li">
-                    <div class="footer_box_t">关于我们</div>
-                    <div class="c">
-                        <a href="/help.php?id=9">网站简介</a>
-                        <a href="/help.php?id=10">联系我们</a>
-                    </div>
-                </div>
-                <div class="fl footer_contact">
-                    <div class="footer_box_t">会员注册/登录</div>
-                    <p class="f12 color_848484">还不是我们的会员？赶快注册吧！</p>
-                    <a class="reg_but footer_box_t1">立即注册</a>
-                    <p class="f14 color_848484">服务热线</p>
-                    <p class="tel f30 color_black">400-667-7878</p>
-                    <p class="f12 color_848484">service@usashopcn.com</p>
-                </div>
-                <div class="footer_wx tc fr">
-                    <div class="img" style="float: left;margin-left: 10px;">
-                        <img src="img/wx.min.jpg" >
-                        <p>微信公众号</p>
-                    </div>
-                    <div class="img">
-                        <img src="img/wx(2).min.jpg">
-                        <p>扫描下载手机版</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--footer_box end-->
-        <!--footer_copy start-->
-        <div class="footer_copy">
-            <p>About HanBang  公司简介-联系方式-客户服务-售后服务-新手指南-会员机制-政策隐私</p>
-            <p>Copyright 2005-2017 美国购物网 All Rights Reserved 鲁ICP备11012501号    <a style="color:#c3c1c2" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37010202000884" target="_blank">公网安备 37010202000884号</a></p>
-            <p style="padding-top:20px;">
-                <a href="javascript:;" target="_blank"><img src="img/kexin.min.png" style="width:94px;height:34px;padding-left:10px"></a>
-                <a href="javascript:;" target="_blank"><img src="img/buliang.min.png" style="width:94px;height:34px;padding-left:10px"></a>
-                <a href="javascript:;" target="_blank"><img src="img/jiaoyi.min.png" style="width:94px;height:34px;padding-left:10px"></a>
-                <a href=""><img src="img/zhizhao.min.png" style="width:94px;height:34px;padding-left:10px"></a>
-            </p>
-        </div>
-        <!--footer_copy end-->
-    </div>
-    <!-- 页面渲染不会阻塞，效率更高 -->
-    <script src="js/jquery.js"></script>
-    <script src="js/tools.js"></script>
-    <!-- <script src="js/js.js"></script> -->
-     <!--<script src="js/list.js"></script> -->
-    <script type="text/javascript">
-
-
-
-    </script>
-</body>
+			<!--footer_box end-->
+			<!--footer_copy start-->
+			<div class="footer_copy">
+				<p>About HanBang 公司简介-联系方式-客户服务-售后服务-新手指南-会员机制-政策隐私</p>
+				<p>Copyright 2005-2017 美国购物网 All Rights Reserved 鲁ICP备11012501号 <a style="color:#c3c1c2" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37010202000884"
+					 target="_blank">公网安备 37010202000884号</a></p>
+				<p style="padding-top:20px;">
+					<a href="javascript:;" target="_blank"><img src="img/kexin.min.png" style="width:94px;height:34px;padding-left:10px"></a>
+					<a href="javascript:;" target="_blank"><img src="img/buliang.min.png" style="width:94px;height:34px;padding-left:10px"></a>
+					<a href="javascript:;" target="_blank"><img src="img/jiaoyi.min.png" style="width:94px;height:34px;padding-left:10px"></a>
+					<a href=""><img src="img/zhizhao.min.png" style="width:94px;height:34px;padding-left:10px"></a>
+				</p>
+			</div>
+			<!--footer_copy end-->
+		</div>
+		<!-- 页面渲染不会阻塞，效率更高 -->
+		<script src="js/jquery.js"></script>
+		<script src="js/tools.js"></script>
+		<!-- <script src="js/list.min.js"></script> -->
+		<script type="text/javascript">
+				var oDiv = document.getElementById("box")
+				var oUl = document.getElementById("ul")
+				var oLi = oUl.getElementsByTagName("li")
+				var timer  = null;
+				var speed = 10;
+				oUl.innerHTML += oUl.innerHTML ;
+				//初始化ul的宽度
+				oUl.style.width = oLi[0].offsetWidth*oLi.length + "px"
+				
+			function move(){
+					
+					if(oUl.offsetLeft < -oUl.offsetWidth/2){
+						oUl.style.left = 0
+					}else if(oUl.offsetLeft > 0){
+						oUl.style.left = -oUl.offsetWidth/2 + "px"
+						
+					}
+					oUl.style.left =  oUl.offsetLeft + speed + "px"
+				}
+				
+				timer = setInterval(move,500)
+// 				oA[0].onclick = function(){
+// 					speed = -10
+// 				}
+// 				oA[1].onclick = function(){
+// 					speed = 10
+// 				}
+				oDiv.onmouseover = function(){
+					clearInterval(timer)
+				}
+				oDiv.onmouseout = function(){
+					timer = setInterval(move,500)
+				}
+				
+					
+		</script>
+		
+	</body>
 </html>

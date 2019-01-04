@@ -75,7 +75,7 @@
 .hc_lnav .allbtn ul {
   position: absolute;
   background: url("../../dist/img/menu_bg.min.png") repeat;
-  width: 160px;
+  width: 157px;
   height: 402px;
   top: 40px;
   left: 0px;
@@ -83,7 +83,6 @@
   .hc_lnav .allbtn ul li:hover > div {
     display: block; }
   .hc_lnav .allbtn ul li {
-    position: relative;
     height: 36px;
     zoom: 1;
     clear: both;
@@ -97,12 +96,13 @@
       background: url("../../dist/img/menu_icon2.min.png") no-repeat 180px center; }
     .hc_lnav .allbtn ul li .pop {
       position: absolute;
-      left: 160px;
+      left: 156px;
       top: 0px;
       background: #fff;
       border: 1px solid #000;
       width: 640px;
-      display: none; }
+      display: none;
+      border-right: 1px solid #000; }
       .hc_lnav .allbtn ul li .pop dl {
         display: flex;
         padding: 20px 30px 20px 0px; }
